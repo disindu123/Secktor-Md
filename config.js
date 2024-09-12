@@ -17,7 +17,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.c
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? '💫Disindu Damsandu💫' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? 'Ethix-MD&MWN9EpZ6' : process.env.SESSION_ID,
+  sessionName:  process.env.SESSION_ID === undefined ? 'DisinduDamsandu1234' : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'SamPandey001' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'Secktor-Md' : process.env.PACK_INFO.split(";")[1],
